@@ -5,7 +5,7 @@ namespace Object_Oriented_Programming
 {
     class Program
     {
-        const String Inventory_Json = @"E:\Bridglabz\Object_Oriented_Programming\InventoryManagement\Inventory.json"; //@ define path
+        const String Inventory_Json = @"E:\Bridglabz\OOPs_concept\Object_Oriented_Programming\InventoryManagement\Inventory.json"; //@ define path
         static void Main(string[] args)
         {
             InventoryMain main = new InventoryMain();
