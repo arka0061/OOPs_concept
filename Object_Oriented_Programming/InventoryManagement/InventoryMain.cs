@@ -18,7 +18,7 @@ namespace Object_Oriented_Programming.InventoryManagement
                 {
                     var json = read.ReadToEnd();
                     var items = JsonConvert.DeserializeObject<List<InventoryModel>>(json);
-                    Console.WriteLine("Name/Weight/Rate/Amount");
+                    Console.WriteLine("Name"+"\t"+"/Weight"+"\t"+"Rate"+"\t"+"Amount");
                     foreach(var item in items)
                     {
                         Console.WriteLine("{0}"+"\t"+"{1}"+"\t"+"{2}"+"\t"+"{3}",item.Name,item.Weight,item.PricePerKg,item.Weight*item.PricePerKg);
